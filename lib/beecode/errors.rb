@@ -1,0 +1,10 @@
+require_relative 'error/bad_request'
+require_relative 'error/forbidden'
+require_relative 'error/internal_server_error'
+require_relative 'error/method_not_allowed'
+require_relative 'error/not_found'
+require_relative 'error/service_unavailable'
+require_relative 'error/unauthorized'
+
+require_relative 'error/authentication_failed'
+require_relative 'error/expired_token'
